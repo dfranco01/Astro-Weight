@@ -1,0 +1,74 @@
+/*IDS: user-weight, planets, calculate-button, clear-button*/
+
+.buttons{
+    display: flex;
+    border-radius: 10px;
+    background-color: red;
+    justify-content: center;
+    padding:5px;
+}
+
+.buttons:hover{
+    background-color: aqua;
+}
+
+#input-group{
+    gap: 10px;
+    display: flex;
+}
+
+#user-weight, #planets{
+    border-radius: 10px;
+}
+
+#user-weight:hover, #planets:hover{
+    border-color: cadetblue;
+    border: 2px;
+}
+
+body{
+    background-image: url(Galaxy.jpg);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+
+}
+
+label{
+    font-family: fantasy;
+    color: darkgrey;
+}
+
+#planets{
+    width: 200px;
+}
+
+#container{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    display: flex;
+    flex-direction: column;
+    height:90vh;
+}
+
+#output{
+    color:rgb(230, 47, 230);
+    font-size:x-large;
+}
+
+h1{
+    color:darkgray
+}
+
+#calculate-button{
+    position: absolute;
+    left:40%;
+    padding:5px;
+}
+
+#clear-button{
+    position:absolute;
+    left:55%;
+}

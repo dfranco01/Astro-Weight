@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Astro Weight Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="main.js" charset="utf-8"></script>
+    <meta name="viewport" content="width=device-width">
   </head>
   <body>
-     <!-- Write your markup here  -->
+    <h1>Astro Weight Calculator!</h1>
+    <div id="container">
+      <div id="input-group">
+        <label for="user-weight">Your weight: </label>
+        <input id="user-weight" type="text" placeholder="weight(lbs)"/>
 
-    <script src="main.js" charset="utf-8"></script>
+        <label for="planets">Choose a planet</label>
+        <select id="planets">
+        </select>
+      </div>
+      <div id="buttons">
+        <button id="calculate-button" class="buttons">Calculate!</button>
+        <button id="clear-button" class="buttons">Clear</button>
+      </div><br><br><br>
+      
+
+      <p id="output"></p>
+    </div>
   </body>
 </html>
